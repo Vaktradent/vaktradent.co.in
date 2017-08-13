@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Josefin+Slab|Monda|Rajdhani');
+
+
+/*font-family: 'Arvo', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Monda', sans-serif;*/
+
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+
+.headerbar{
+	position: fixed;
+	height: 80px;
+	/*border-bottom: 3px solid #0296FF;*/
+	width: 100%;
+	z-index: 100;
+	background-color: #fff;
+	top: 0;
+	border-bottom: 2px solid #0296FF;
+}
+
+.ovrid{
+	margin: 0;
+	margin-top: 10px;
+	font-family: 'Rajdhani', sans-serif;
+	padding: 10px;
+	padding-left: 50px;
+	color: #0296FF;
+	font-size: 45px;
+	display: inline-block;
+}
+
+p{
+	font-size: 25px;
+}
+
+.toverlay{
+	height: 100vh;
+	padding-top: 100px;
+	color: #69059C;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+
+.about{
+	height: 100vh;
+	padding-top: 100px;
+	color: #69059C;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	display: table;
+	width: 100%;
+	background-size: cover;
+	background-position: center 0;
+}
+
+.valign{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.catch{
+	font-size: 40px;
+	background-color: #fff;
+	color: #0296FF;
+}
+
+.catchcon{
+	font-size: 50px;
+	color: white;
+	background-color: #0296FF;
+}
+
+.backgr{
+	background-image: url("../img/bg.png");
+	/*background-repeat: repeat-x repeat-y;*/
+	/*background-size: cover;*/
+	/*background-position: center center;*/
+}
+
+.foot{
+	height: 10vh;
+	padding: 20px;
+	color: #fff;
+	background-color: #0296FF;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: left;
+	display: table;
+	width: 100%;
+}
+
+/*NAVIGATION*/
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #0296FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  background-color: #0296FF;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.topnav a.active {
+    background-color: #0296FF;
+    color: white;
+}
+
+.topnav a:focus{
+    text-decoration: none;
+    color: white;
+}
+
+/*CONTENT*/
+
+li{
+	font-size: 30px;
+}
+
+ul{
+	list-style: none;
+}
+
+.fp{
+	font-size: 17px;
+}
+
+.foot a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.foot a:hover,a:focus{
+	text-decoration: none;
+	color: yellow;
+}
+
+.conwrap{
+	background-color: rgba(255,255,255,1);
+	color: #0296FF;
+}
+
+.conwrappre{
+	background-color: rgba(255,255,255,0.8);
+	color: #0296FF;
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Rajdhani', sans-serif;
+	padding-left: 50px;
+}
+
+.cbtn{
+	width: 45%;
+	padding: 20px;
+	margin: 10px;
+	font-size: 30px;
+	border-radius: 7px;
+	border: 2px solid #0296FF;
+	background-color: #0296FF;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.cbtn:hover{
+	color: #0296FF;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+img{
+	height: 150px;
+	margin: 5px;
+}
+
+.imgd img{
+	width: 100%;
+	height: auto;
+}
+
+/*SIDENAV*/
+
+.knav {
+    visibility: hidden;
+}
+
+.cmenu {
+    visibility: hidden;
+}
+
+.omenu{
+    visibility: hidden;
+}
+
+.catchconq{
+	font-size: 75px; margin-top: 75px;
+	color: white;
+	background-color: #0296FF;
+}
+
+.cbtna{
+	width: 90%; height: 200px; font-size: 50px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 7px;
+	border: 2px solid #0296FF;
+	background-color: #0296FF;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.cbtna:hover{
+	background-color: #fff;
+	color: #0296FF;
+	transition: 0.5s;
+}
+
+.headerbar img{
+	height: 75px; border: 2px solid #0296FF;
+}
