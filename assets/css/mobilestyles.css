@@ -308,3 +308,8 @@ img{
 pre{
 	width: 90vw;
 }
+
+.hid{
+	display: none;
+	visibility: hidden;
+}
