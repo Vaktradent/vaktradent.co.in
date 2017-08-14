@@ -12,27 +12,33 @@ a,a:hover,a:focus{
 
 .headerbar{
 	position: fixed;
-	height: 80px;
-	/*border-bottom: 3px solid #0296FF;*/
+	height: 85px;
+	/*border-bottom: 3px solid #800080;*/
 	width: 100%;
 	z-index: 100;
 	background-color: #fff;
 	top: 0;
-	border-bottom: 2px solid #0296FF;
+	border-bottom: 2px solid #800080;
 }
 
 .ovrid{
 	margin: 0;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-family: 'Rajdhani', sans-serif;
-	padding: 10px;
+	padding: none;
 	padding-left: 50px;
-	color: #0296FF;
+	color: #800080;
 	font-size: 45px;
 	display: inline-block;
 }
 
 p{
+	font-size: 25px;
+}
+
+.cap{
+	margin: none;
+	padding: none;
 	font-size: 25px;
 }
 
@@ -65,15 +71,15 @@ p{
 }
 
 .catch{
-	font-size: 40px;
+	font-size: 35px;
 	background-color: #fff;
-	color: #0296FF;
+	color: #800080;
 }
 
 .catchcon{
 	font-size: 50px;
 	color: white;
-	background-color: #0296FF;
+	background-color: #800080;
 }
 
 .backgr{
@@ -87,7 +93,7 @@ p{
 	height: 10vh;
 	padding: 20px;
 	color: #fff;
-	background-color: #0296FF;
+	background-color: #800080;
 	font-family: 'Rajdhani', sans-serif;
 	text-align: left;
 	display: table;
@@ -104,7 +110,7 @@ p{
 .topnav a {
   float: left;
   display: block;
-  color: #0296FF;
+  color: #800080;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -115,14 +121,14 @@ p{
 }
 
 .topnav a:hover {
-  background-color: #0296FF;
+  background-color: #800080;
   color: #fff;
   text-decoration: none;
   transition: 0.5s;
 }
 
 .topnav a.active {
-    background-color: #0296FF;
+    background-color: #800080;
     color: white;
 }
 
@@ -157,12 +163,12 @@ ul{
 
 .conwrap{
 	background-color: rgba(255,255,255,1);
-	color: #0296FF;
+	color: #800080;
 }
 
 .conwrappre{
 	background-color: rgba(255,255,255,0.8);
-	color: #0296FF;
+	color: #800080;
 	font-size: 20px;
 	text-align: left;
 	font-family: 'Rajdhani', sans-serif;
@@ -175,14 +181,14 @@ ul{
 	margin: 10px;
 	font-size: 30px;
 	border-radius: 7px;
-	border: 2px solid #0296FF;
-	background-color: #0296FF;
+	border: 2px solid #800080;
+	background-color: #800080;
 	color: #fff;
 	transition: 0.5s;
 }
 
 .cbtn:hover{
-	color: #0296FF;
+	color: #800080;
 	background-color: #fff;
 	transition: 0.5s;
 }
@@ -212,28 +218,28 @@ img{
 }
 
 .catchconq{
-	font-size: 75px; margin-top: 75px;
+	font-size: 75px;
 	color: white;
-	background-color: #0296FF;
+	background-color: #800080;
 }
 
 .cbtna{
-	width: 90%; height: 200px; font-size: 50px;
+	width: 90%; height: 100px; font-size: 50px;
 	padding: 20px;
 	margin: 10px;
 	border-radius: 7px;
-	border: 2px solid #0296FF;
-	background-color: #0296FF;
+	border: 2px solid #800080;
+	background-color: #800080;
 	color: #fff;
 	transition: 0.5s;
 }
 
 .cbtna:hover{
 	background-color: #fff;
-	color: #0296FF;
+	color: #800080;
 	transition: 0.5s;
 }
 
 .headerbar img{
-	height: 75px; border: 2px solid #0296FF;
+	height: 75px;
 }
