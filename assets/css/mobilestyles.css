@@ -320,3 +320,7 @@ pre{
 	display: none;
 	visibility: hidden;
 }
+
+.bold{
+	font-size: 30px;
+}

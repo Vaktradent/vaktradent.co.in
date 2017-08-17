@@ -33,7 +33,7 @@ a,a:hover,a:focus{
 }
 
 p{
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .cap{
@@ -242,4 +242,8 @@ img{
 
 .headerbar img{
 	height: 75px;
+}
+
+.bold{
+	font-size: 30px;
 }
